@@ -22,30 +22,29 @@
         margin: 10px 0 !important;  /* Adjusted margin */
     }
     .menu li a {
-        padding: 10px 10px !important;  /* Adjusted padding */
-        font-size: 0.3rem !important;  /* Adjusted font size */
+        padding: 5px 5px !important;  /* Adjusted padding */
+        font-size: 0.5rem !important;  /* Adjusted font size */
     }
     .menu li a:hover {
         background-color: rgba(0, 0, 0, 0.99) !important; 
     }
     .logo {
-        width: 85px !important; 
+        width: 80px !important; 
         height: auto !important; 
         transition: width 0.3s ease !important; 
     }
     .scrolled .logo {
-        width: 10px !important; 
+        width: 40px !important; 
     }
     .stretch-image {
         width: 100% !important; 
         height: auto !important; 
     }
     .separatorbig {
-        height: 95px !important; 
-        background-color: rgba(0, 0, 0, 0) !important; 
+        height: 95px  !important; 
+        background-color: rgba(0, 0, 0, 0);
     }
 }
-
 
 .menu {
     background-color: rgba(35, 3, 3, 0.9); /* Transparent background color */
@@ -94,4 +93,3 @@
     height: 300px;
     background-color: rgba(0, 0, 0, 0);
 }
-
