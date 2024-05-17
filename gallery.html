@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goddess Yulia Proffsional Findom Goddess</title>
+    <title>Goddess Yulia Professional Findom Goddess</title>
     <style>
         body {
             margin: 0;
@@ -25,16 +25,17 @@
             font-size: 3rem;
             margin-bottom: 20px;
         }
-        p {
-            font-size: 1.2rem;
-        }
         .menu {
-            background-color: rgba(0, 0, 0, 0.5); /* Transparent background color */
+            background-color: rgba(0, 0, 0, 0.9); /* Transparent background color */
             padding: 20px;
             text-align: center;
             display: flex;
             align-items: center;
             justify-content: center; /* Center menu items horizontally */
+            position: fixed; /* Fix the menu at the top */
+            width: 100%; /* Full width */
+            top: 0; /* Position at the top */
+            z-index: 999; /* Ensure the menu stays on top of other content */
         }
         .menu ul {
             list-style-type: none;
@@ -44,10 +45,10 @@
             justify-content: center;
         }
         .menu li {
-            margin: 0 10px; /* Spacing between menu items */
+            margin: 0 10px; 
         }
         .menu li a {
-            color: #fff; /* Text color of the menu items */
+            color: #fff; 
             text-decoration: none;
             padding: 10px;
             transition: background-color 0.3s ease;
@@ -56,27 +57,80 @@
             background-color: rgba(0, 0, 0, 0.99); /* Background color on hover */
         }
         .logo {
-            margin-right: 50px; /* Spacing between logo and menu */
-            width: 200px; /* Adjusted width of the logo */
+            width: 250px; /* Adjusted width of the logo */
             height: auto; /* Automatically adjust height to maintain aspect ratio */
+            transition: width 0.3s ease; /* Add transition for smoother effect */
         }
+        .scrolled .logo {
+            width: 100px; /* Adjusted width of the logo when scrolled */
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+            margin-top: 100px; /* Add margin top to prevent content from being hidden behind the fixed menu */
+        }
+
+        .image {
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            width: 350px; /* Fixed width for the images */
+            height: 600px; /* Fixed height for the images */
+        }
+
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Maintain aspect ratio and cover container */
+            transition: transform 0.3s ease;
+        }
+
+        .image:hover img {
+            transform: scale(1.05);
+        }
+
     </style>
 </head>
 <body>
-    <div class="menu">
-        <a href="index.html"><img src="images/Goddess Yulia.png" alt="Logo" class="logo"> </a>
+    <div class="menu" id="menu">
+        <a href="index.html"><img src="images/Goddess Yulia.png" alt="Logo" class="logo"></a>
         <ul>
             <li><a href="index.html">ABOUT</a></li>
             <li><a href="gallery.html">GALLERY</a></li>
             <li><a href="My Socials.html">MY SOCIALS</a></li>
             <li><a href="Blackmai.html">BLACKMAIL</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
         </ul>
     </div>
 
+    <div class="separator" style="height: 230px; background-color: rgba(0, 0, 0, 0) ; margin: 200;"></div>
+
     <div class="container">
-        <h1>gallery</h1>
-        <p>comming soon</p>
+        <h1>Gallery</h1>
+        <div class="gallery">
+            <div class="image"><img src="images/Pro-Capture One 0630 (1).jpg" alt="Image 1"></div>
+            <div class="image"><img src="images/Foto-25.02.23-16-36-01-scaled.jpg" alt="Image 2"></div>
+            <div class="image"><img src="images/20231216_220638.jpg" alt="Image 3"></div>
+            <div class="image"><img src="images/0669b866-2706-4854-a11e-68fe90313f7a.jpeg" alt="Image 4"></div>
+            <div class="image"><img src="images/IMG_20240411_175357_212.jpg" alt="Image 5"></div>
+            <div class="image"><img src="images/Artemis1413-scaled-1.png" alt="Image 6"></div>
+            <div class="image"><img src="images/background2.jpg" alt="Image 7"></div>
+            <div class="image"><img src="images/Artemis1413-scaled-3.png" alt="Image 8"></div>
+           
+        </div>
     </div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const menu = document.getElementById('menu');
+            if (window.scrollY > 0) {
+                menu.classList.add('scrolled');
+            } else {
+                menu.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 </html>

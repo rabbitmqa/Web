@@ -29,12 +29,16 @@
             font-size: 1.2rem;
         }
         .menu {
-            background-color: rgba(0, 0, 0, 0.5); /* Transparent background color */
+            background-color: rgba(0, 0, 0, 0.9); /* Transparent background color */
             padding: 20px;
             text-align: center;
             display: flex;
             align-items: center;
             justify-content: center; /* Center menu items horizontally */
+            position: fixed; /* Fix the menu at the top */
+            width: 100%; /* Full width */
+            top: 0; /* Position at the top */
+            z-index: 999; /* Ensure the menu stays on top of other content */
         }
         .menu ul {
             list-style-type: none;
@@ -44,10 +48,10 @@
             justify-content: center;
         }
         .menu li {
-            margin: 0 10px; /* Spacing between menu items */
+            margin: 0 10px; 
         }
         .menu li a {
-            color: #fff; /* Text color of the menu items */
+            color: #fff; 
             text-decoration: none;
             padding: 10px;
             transition: background-color 0.3s ease;
@@ -56,11 +60,27 @@
             background-color: rgba(0, 0, 0, 0.99); /* Background color on hover */
         }
         .logo {
-            margin-right: 50px; /* Spacing between logo and menu */
-            width: 200px; /* Adjusted width of the logo */
+            width: 250px; /* Adjusted width of the logo */
             height: auto; /* Automatically adjust height to maintain aspect ratio */
+            transition: width 0.3s ease; /* Add transition for smoother effect */
+        }
+        .scrolled .logo {
+            width: 100px; /* Adjusted width of the logo when scrolled */
         }
     </style>
+
+    
+<script>
+    window.addEventListener('scroll', function() {
+        const menu = document.getElementById('menu');
+        if (window.scrollY > 0) {
+            menu.classList.add('scrolled');
+        } else {
+            menu.classList.remove('scrolled');
+        }
+    });
+</script>
+
 </head>
 <body>
     <div class="menu">
@@ -73,6 +93,8 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
+
+    <div class="separator" style="height: 500px; background-color: rgba(0, 0, 0, 0) ; margin: 200;"></div>
 
     <div class="container">
         <h1>My Socials</h1>
