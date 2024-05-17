@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'SaintMonica';
+    src: url('../fonts/SaintMonica.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'FancyCardText';
+    src: url('../fonts/FancyCardText.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'NewRocker-Regular';
+    src: url('../fonts/NewRocker-Regular.ttf') format('truetype');
+}
