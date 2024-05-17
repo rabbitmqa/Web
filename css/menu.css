@@ -1,0 +1,97 @@
+
+@media screen and (max-width: 768px) {
+    .menu {
+        background-color: rgba(35, 3, 3, 0.9) !important; 
+        padding: 3px !important; 
+        text-align: center !important; 
+        display: flex !important; 
+        align-items: center !important; 
+        justify-content: center !important; 
+        position: fixed !important; 
+        width: 100% !important; 
+        top: 0 !important; 
+        z-index: 999 !important; 
+    }
+    .menu ul {
+        display: flex !important; 
+        list-style-type: none!important;  
+        padding: 2 !important; 
+        margin: 2 !important; 
+    }
+    .menu li {
+        margin: 10px 0 !important;  /* Adjusted margin */
+    }
+    .menu li a {
+        padding: 10px 10px !important;  /* Adjusted padding */
+        font-size: 0.3rem !important;  /* Adjusted font size */
+    }
+    .menu li a:hover {
+        background-color: rgba(0, 0, 0, 0.99) !important; 
+    }
+    .logo {
+        width: 85px !important; 
+        height: auto !important; 
+        transition: width 0.3s ease !important; 
+    }
+    .scrolled .logo {
+        width: 10px !important; 
+    }
+    .stretch-image {
+        width: 100% !important; 
+        height: auto !important; 
+    }
+    .separatorbig {
+        height: 95px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+
+.menu {
+    background-color: rgba(35, 3, 3, 0.9); /* Transparent background color */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center menu items horizontally */
+    position: fixed; /* Fix the menu at the top */
+    width: 100%; /* Full width */
+    top: 0; /* Position at the top */
+    z-index: 999; /* Ensure the menu stays on top of other content */
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu li {
+    margin: 0 10px; 
+}
+.menu li a {
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.menu li a:hover {
+    background-color: rgba(0, 0, 0, 0.99); /* Background color on hover */
+}
+.logo {
+    width: 250px; /* Adjusted width of the logo */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    transition: width 0.3s ease; /* Add transition for smoother effect */
+}
+.scrolled .logo {
+    width: 100px; /* Adjusted width of the logo when scrolled */
+}
+.stretch-image {
+    width: 100%;
+    height: auto;
+}
+.separatorbig {
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
