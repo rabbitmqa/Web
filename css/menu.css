@@ -44,6 +44,10 @@
         height: 95px  !important; 
         background-color: rgba(0, 0, 0, 0);
     }
+    .separatormobile{
+        height: 95px  !important; 
+        background-color: rgba(0, 0, 0, 0)  !important; 
+    }
 }
 
 .menu {
@@ -91,5 +95,9 @@
 }
 .separatorbig {
     height: 300px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.separatormobile{
+    height: 0px;
     background-color: rgba(0, 0, 0, 0);
 }

@@ -1,0 +1,36 @@
+
+.image-container {
+    position: relative;
+    width: 2000px; /* Increased width for larger container */
+    margin: 0 auto; /* Center the container */
+    max-width: 2000px; /* Maximum width to ensure it doesn't grow too large */
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+}
+
+.transparent-background {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    /* mix-blend-mode: lighten; Use blend mode to make black areas transparent */
+}
+
+/* Styles for mobile */
+@media screen and (max-width: 768px) {
+    .image-container {
+        position: relative !important;  
+        width: 380px !important;  
+        margin: 0 auto !important;  
+        max-width: 2000px !important;  
+        align-items: center !important;   
+        justify-content: center !important;  
+        display: flex !important;  
+    }
+    .transparent-background {
+        width: 100% !important;  
+        height: auto !important;  
+        /* mix-blend-mode: lighten !important;   */
+
+    }
+}
+
