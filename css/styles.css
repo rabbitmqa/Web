@@ -8,6 +8,15 @@
     justify-content: center;
     display: flex;
 }
+.image-container2 {
+    position: relative ;  
+    width: 380px ;  
+    margin: 0 auto ;  
+    max-width: 2000px ;  
+    align-items: center ;   
+    justify-content: center ;  
+    display: flex ;  
+}
 
 .transparent-background {
     width: 100%; /* Make the image take up the full width of the container */
@@ -19,13 +28,28 @@
 @media screen and (max-width: 768px) {
     .image-container {
         position: relative !important;  
-        width: 380px !important;  
+        width: 350px !important;  
         margin: 0 auto !important;  
         max-width: 2000px !important;  
         align-items: center !important;   
         justify-content: center !important;  
         display: flex !important;  
     }
+    .image-container2 {
+        position: relative !important;
+        width: 700px !important;
+        margin: 0 auto !important;
+        max-width: 150px !important;
+        align-items: center !important;
+        justify-content: center !important;
+        display: flex !important;
+    }
+    
+    .image-container2 img {
+        max-width: 300% !important;
+        height: auto !important;
+    }
+    
     .transparent-background {
         width: 100% !important;  
         height: auto !important;  
