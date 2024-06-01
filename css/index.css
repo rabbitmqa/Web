@@ -2,8 +2,6 @@
     --container-bg-color: rgba(53, 4, 4, 1); /* Default background color */
 }
 
-      
-
 body {
             margin: 0;
             padding: 0;
@@ -12,8 +10,15 @@ body {
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
-            color: #000000; /* Text color on top of the background */
-            background-color: #000000;
+            color: #2c0606; /* Text color on top of the background */
+            
+            background: linear-gradient(to right,rgba(60, 2, 2, 0.9)
+                                                ,rgba(63, 2, 2, 0.9)
+                                                ,rgba(66, 2, 2, 0.9)
+                                                ,rgb(68, 2, 2,0.9)
+                                                ,rgba(66, 2, 2, 0.9)
+                                                ,rgba(63, 2, 2, 0.9)
+                                                ,rgba(60, 2, 2, 0.9)); /* Gradient background from red to black */
 }
 
 h1 {
@@ -22,11 +27,12 @@ h1 {
 }
 
 h2 {
-            font-size: 5rem;
+            font-size: 3.5rem;
             margin: 20px 0;
             color: #ffffff;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             font-family: 'SaintMonica';
+            font-weight: 350;
 }
         
 p {
@@ -83,7 +89,7 @@ a.contact-link:hover {
     margin: 0 auto;
     padding: 50px 0;
     text-align: center;
-    background: linear-gradient(to right, rgba(60, 2, 2, 0.9),  rgb(70, 2, 2,1), rgba(60, 2, 2, 0.9)); /* Gradient background from red to black */
+    /* background: linear-gradient(to right, rgba(60, 2, 2, 0.9),  rgb(70, 2, 2,1), rgba(60, 2, 2, 0.9)); */
     color: rgb(3, 2, 2); /* Set text color to white */
 }
 .image-container {
@@ -118,7 +124,7 @@ a.contact-link:hover {
         margin: 0 auto;
         padding: 50px 0;
         text-align: center;
-        background: linear-gradient(to right, rgba(60, 2, 2, 0.9),  rgb(70, 2, 2,1), rgba(60, 2, 2, 0.9)); /* Gradient background from red to black */
+        /* background: linear-gradient(to right, rgba(60, 2, 2, 0.9),  rgb(70, 2, 2,1), rgba(60, 2, 2, 0.9)); */
         color: rgb(3, 2, 2); /* Set text color to white */
     }
     .image-container {
@@ -130,19 +136,11 @@ a.contact-link:hover {
         justify-content: center !important;  
         display: flex !important;  
     }
-    .image-container2 {
-        position: relative !important;
-        width: 600px !important;
-        margin: 0 auto !important;
-        max-width: 150px !important;
-        align-items: center !important;
-        justify-content: center !important;
-        display: flex !important;
-    }
     
     .image-container2 img {
-        max-width: 230% !important;
+        width: 100% !important; /* Set the width to 100% */
         height: auto !important;
+        max-width: none !important; /* Remove any maximum width constraints */
     }
     
     .transparent-background {
