@@ -1,8 +1,8 @@
 
 @media screen and (max-width: 768px) {
     .menu {
-        background-color: rgba(35, 3, 3, 0.9) !important; 
-        padding: 3px !important; 
+        background-color: rgba(3, 3, 3, 0.8) !important; 
+        padding: 15px !important; 
         text-align: center !important; 
         display: flex !important; 
         align-items: center !important; 
@@ -51,8 +51,8 @@
 }
 
 .menu {
-    background-color: rgba(35, 3, 3, 0.9); /* Transparent background color */
-    padding: 20px;
+    background-color: rgba(3, 3, 3, 0.8); /* Transparent background color */
+    padding: 33px;
     text-align: center;
     display: flex;
     align-items: center;
