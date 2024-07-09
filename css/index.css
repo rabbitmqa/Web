@@ -29,7 +29,7 @@ h1 {
 h2 {
             font-size: 3.5rem;
             margin: 20px 0;
-            color: #ffffff;
+			color: #c5c4c4;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             font-family: 'SaintMonica';
             font-weight: 350;
@@ -38,7 +38,7 @@ h2 {
 p {
             font-size: 1.1rem;
             font-weight: 1; 
-            color: #ffffff;
+			color: #c5c4c4;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             font-family: 'Aboreto', serif;
             max-width: 60%;
@@ -52,7 +52,7 @@ p {
             font-size: 4rem;
             margin: 20px 0;
             font-weight: bold;
-            color: #ffffff;
+			color: #c5c4c4;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             font-family: 'SaintMonica';
         
@@ -62,7 +62,7 @@ div.title {
             font-size: 3rem;
             margin: 20px 0;
             font-weight: bold;
-            color: #ffffff;
+			color: #c5c4c4;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             font-family: 'SaintMonica';
 }
