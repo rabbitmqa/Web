@@ -29,7 +29,7 @@ h1 {
 h2 {
             font-size: 3.5rem;
             margin: 20px 0;
-			color: #c5c4c4;
+			color: #8a8a8a;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             font-family: 'SaintMonica';
             font-weight: 350;
@@ -38,13 +38,14 @@ h2 {
 p {
             font-size: 1.1rem;
             font-weight: 1; 
-			color: #c5c4c4;
+			color: #8a8a8a;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             font-family: 'Aboreto', serif;
             max-width: 60%;
             margin: 0 auto; /* Center the paragraph */
             text-align: justify; /* Justify the text */
             text-align: center; /* Centers the text within the paragraph */
+            
  }
 
         
@@ -52,7 +53,7 @@ p {
             font-size: 4rem;
             margin: 20px 0;
             font-weight: bold;
-			color: #c5c4c4;
+			color: #8a8a8a;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             font-family: 'SaintMonica';
         
@@ -72,7 +73,7 @@ a.contact-link {
             margin: 20px 0;
             padding: 15px 30px;
             font-size: 1.2rem;
-            color: #ffffff;
+			color: #c5c4c4;
             background-color: #160e02;
             text-decoration: none;
             border-radius: 5px;
@@ -159,14 +160,14 @@ a.contact-link:hover {
         font-size: 1rem !important; 
         max-width: 90% !important; 
         margin: 0 auto !important; 
-        color: #ffffff !important;
+        color: #c5c4c4 !important;
         text-align: center !important; /* Change text-align to center */
     }
     div.title2 {
             font-size: 2rem !important; 
             margin: 5px 0 !important; 
             font-weight: 400 !important; 
-            color: #ffffff!important;  
+            color: #c5c4c4 !important;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) !important; 
             font-family: 'SaintMonica' !important; 
     }
@@ -174,7 +175,7 @@ a.contact-link:hover {
             font-size: 1.2rem !important; 
             margin: 5px 0 !important; 
             font-weight: bold !important; 
-            color: #ffffff !important; 
+            color: #c5c4c4 !important;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) !important; 
             font-family: 'SaintMonica' !important; 
     }
